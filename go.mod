@@ -3,7 +3,7 @@ module github.com/travis-ci/worker
 go 1.12
 
 require (
-	cloud.google.com/go v0.26.0
+	cloud.google.com/go v0.34.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.5.0
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/Azure/go-ntlmssp v0.0.0-20180810175552-4a21cbd618b4 // indirect
@@ -24,13 +24,12 @@ require (
 	github.com/flosch/pongo2 v0.0.0-20190505152737-8914e1cf9164 // indirect
 	github.com/garyburd/redigo v0.0.0-20180404160726-569eae59ada9
 	github.com/getsentry/raven-go v0.0.0-20180903072508-084a9de9eb03
-	github.com/gogo/protobuf v1.2.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
 	github.com/google/martian v2.0.0-beta.2.0.20180813215018-c223d6f7955e+incompatible // indirect
-	github.com/google/uuid v1.1.0 // indirect
 	github.com/googleapis/gax-go v2.0.0+incompatible // indirect
 	github.com/gorilla/mux v0.0.0-20181012153151-deb579d6e030
 	github.com/gorilla/websocket v1.4.0 // indirect
+	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/jtacoma/uritemplates v1.0.0
 	github.com/juju/clock v0.0.0-20190205081909-9c5c9712527c // indirect
 	github.com/juju/go4 v0.0.0-20160222163258-40d72ab9641a // indirect
@@ -60,16 +59,13 @@ require (
 	github.com/sirupsen/logrus v0.0.0-20181010200618-458213699411
 	github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a // indirect
 	github.com/streadway/amqp v0.0.0-20180806233856-70e15c650864
-	github.com/stretchr/testify v1.2.2
+	github.com/stretchr/testify v1.3.0
 	go.opencensus.io v0.15.0
 	golang.org/x/crypto v0.0.0-20190404164418-38d8ce5564a5
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
-	golang.org/x/oauth2 v0.0.0-20181003184128-c57b0facaced
-	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f // indirect
-	golang.org/x/text v0.3.1-0.20180807135948-17ff2d5776d2 // indirect
+	golang.org/x/net v0.0.0-20190812203447-cdfb69ac37fc
+	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
 	google.golang.org/api v0.0.0-20181012000736-72df7e5ac770
-	google.golang.org/appengine v1.2.0 // indirect
 	google.golang.org/genproto v0.0.0-20181004005441-af9cb2a35e7f // indirect
 	google.golang.org/grpc v1.14.0 // indirect
 	gopkg.in/httprequest.v1 v1.2.0 // indirect
@@ -80,6 +76,10 @@ require (
 	gopkg.in/robfig/cron.v2 v2.0.0-20150107220207-be2e0b0deed5 // indirect
 	gopkg.in/urfave/cli.v1 v1.20.0
 	gotest.tools v2.2.0+incompatible // indirect
+	k8s.io/api v0.0.0-20190831074750-7364b6bdad65
+	k8s.io/apimachinery v0.0.0-20190831074630-461753078381
+	k8s.io/client-go v0.0.0-20190620085101-78d2af792bab
+	k8s.io/utils v0.0.0-20190829053155-3a4a5477acf8 // indirect
 )
 
 replace github.com/Sirupsen/logrus v0.0.0-20181010200618-458213699411 => github.com/Sirupsen/logrus v1.0.6
